@@ -111,7 +111,7 @@ footer {
     font-size: 20px;
     padding: 2vh;
     border-radius: 100px;
-    margin-top: 4vh;
+    margin-top: 1vh;
 }
 
 .img-redes {
@@ -130,7 +130,7 @@ footer {
 #inicio {
     margin-bottom: 10vh;
     min-height: 100vh;
-    padding-top: 15vh;
+    padding-top: 11vh;
     margin-top: 1vh;
 }
 
@@ -162,7 +162,7 @@ footer {
 
 #redes {
     display: flex;
-    margin-top: 5vh;
+    margin-top: 10vh;
     justify-content: space-evenly;
 }
 /* Recomendaciones! 
