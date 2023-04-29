@@ -21,7 +21,6 @@
 body {
     font-family: 'Lato', sans-serif;
     font-size: 18px;
-    line-height: 1.2;
 }
 
 /* Para quitar los puntos a los items de listas */
@@ -37,15 +36,30 @@ a {
 
 /* HEADER */
 header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     height: 90px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: white;
+    box-shadow: 10px 1px 5px 3px rgba(0, 0, 0, 0.2);
 }
+
+.nav li {
+    display: inline-block;
+    padding: 20px;
+    font-weight: 700;
+}
+
 /* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
 *  el margin: auto; para tenerlo centrado fácilmente ;)
 */
 main {
     max-width: 1200px;
     margin: auto;
-    min-height: 100vh;
 }
 
 img {
@@ -53,6 +67,10 @@ img {
     max-width: 500px;
 }
 
+p {
+    margin: 20px 0px 20px 0px;
+    line-height: 1.2;
+}
 
 /* footer */
 footer {
@@ -62,52 +80,61 @@ footer {
     background-color: #af599e;
     color: #fbfbfb;
     height: 90px;
-    margin-top: 100px;
+    margin-top: 15vh;
 }
 
 /* class's */
 
 .titulos {
     text-align: center;
-    padding-top: 5%;
+    padding-top: 1vh;
     font-size: 28px;
 }
 
 .textos {
     text-align: center;
-    padding: 5% 10% 5% 10%;
+    padding: 0% 10% 0% 10%;
+}
+
+.texto-contacto {
+    background-color: rgba(175, 89, 158, 0.3);
+    color: #0f0f0f;
+    margin: 3vh;
+    padding: 3vh;
+    border-radius: 20px;
 }
 
 .boton {
     background-color: #af599e;
     color: #fbfbfb;
     font-size: 20px;
-    padding: 15px;
-    border-radius: 50px;
+    padding: 2vh;
+    border-radius: 100px;
 }
 
 .img-redes {
-    width: 15%;
+    width: 10vh;
+    padding: 0 1vh 0 1vh;
 }
 
 .imagen-perfil {
-    border-radius: 300px;
-    width: 100%;
-    height: 50vh;
-    padding: 3%;
+    border-radius: 100%;
+    height: 40vh;
+    width: 400px;
+    padding: 2vh;
 }
 
 /* ID's */
 #inicio {
+    margin-bottom: 10vh;
     min-height: 100vh;
-    margin-bottom: 20%;
+    padding-top: 12vh;
+    margin-top: 1vh;
 }
 
 #contacto {
-    background-color: rgba(175, 89, 158, 0.3);
-    color: #0f0f0f;
-    margin: 5%;
-    border-radius: 2%;
+    min-height: 100vh;
+    padding-top: 12vh;
 }
 
 #boton-descarga {
@@ -120,7 +147,7 @@ footer {
 }
 
 #img-logo {
-    width: 25%;
+    width: 10vh;
 }
 
 #img-perfil {
@@ -133,8 +160,8 @@ footer {
 
 #redes {
     display: flex;
-    margin-top: 60px;
-    justify-content: space-around;
+    margin-top: 5vh;
+    justify-content: space-evenly;
 }
 /* Recomendaciones! 
 *  - Comenzar desde lo más general y luego ir hacia lo mas específico, asignando primero
