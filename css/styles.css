@@ -38,14 +38,7 @@ a {
 /* HEADER */
 header {
     height: 90px;
-    display: flex;
-    justify-content: space-between;
 }
-
-nav {
-    flex-direction: row;
-}
-
 /* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
 *  el margin: auto; para tenerlo centrado fácilmente ;)
 */
@@ -93,14 +86,8 @@ footer {
     border-radius: 50px;
 }
 
-.redes {
-    display: flex;
-    margin-top: 60px;
-    justify-content: space-around;
-}
-
 .img-redes {
-    width: 18%;
+    width: 15%;
 }
 
 .imagen-perfil {
@@ -142,6 +129,12 @@ footer {
     width: 100%;
     justify-content: center;
     align-items: center;
+}
+
+#redes {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-around;
 }
 /* Recomendaciones! 
 *  - Comenzar desde lo más general y luego ir hacia lo mas específico, asignando primero
