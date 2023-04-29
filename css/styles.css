@@ -2,7 +2,7 @@
 
 /* Fonts */
 /* Importar aquí la font */
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 
 /* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
@@ -18,6 +18,12 @@
     scroll-behavior: smooth;
 }
 
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
 /* Para quitar los puntos a los items de listas */
 ul {
     list-style: none;
@@ -29,6 +35,17 @@ a {
     color: inherit;
 }
 
+/* HEADER */
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    flex-direction: row;
+}
+
 /* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
 *  el margin: auto; para tenerlo centrado fácilmente ;)
 */
@@ -37,6 +54,75 @@ main {
     margin: auto;
 }
 
+img {
+    width: 100%;
+    max-width: 500px;
+}
+
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #af599e;
+    color: #fbfbfb;
+    height: 90px;
+    margin-top: 100px;
+}
+
+/* class's */
+
+.titulos {
+    text-align: center;
+    padding-top: 5%;
+    font-size: 28px;
+}
+
+.textos {
+    text-align: center;
+    padding: 5% 10% 10% 10%;
+}
+
+.boton {
+    background-color: #af599e;
+    color: #fbfbfb;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.redes {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-around;
+}
+
+.img-redes {
+    width: 18%;
+}
+
+/* ID's */
+
+#contacto {
+    background-color: rgba(175, 89, 158, 0.3);
+    color: #0f0f0f;
+    margin: 5%;
+    border-radius: 2%;
+}
+
+#boton-descarga {
+    display: flex;
+    justify-content: center;
+}
+
+#titulo-principal {
+    font-size: 36px;
+}
+
+#img-logo {
+    width: 25%;
+}
 /* Recomendaciones! 
 *  - Comenzar desde lo más general y luego ir hacia lo mas específico, asignando primero
 *    "estilos generales". Una buena idea sería comenzar por el <body> ;)
