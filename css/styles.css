@@ -80,7 +80,7 @@ footer {
     background-color: #af599e;
     color: #fbfbfb;
     height: 90px;
-    margin-top: 15vh;
+    margin-top: 2vh;
 }
 
 /* class's */
@@ -91,17 +91,18 @@ footer {
     font-size: 28px;
 }
 
-.textos {
+.texto {
     text-align: center;
-    padding: 0% 10% 0% 10%;
+    padding: 1vh;
 }
 
 .texto-contacto {
     background-color: rgba(175, 89, 158, 0.3);
     color: #0f0f0f;
     margin: 3vh;
-    padding: 3vh;
+    padding: 1vh 3vh 1vh 3vh; 
     border-radius: 20px;
+    text-align: center;
 }
 
 .boton {
@@ -110,6 +111,7 @@ footer {
     font-size: 20px;
     padding: 2vh;
     border-radius: 100px;
+    margin-top: 4vh;
 }
 
 .img-redes {
@@ -128,7 +130,7 @@ footer {
 #inicio {
     margin-bottom: 10vh;
     min-height: 100vh;
-    padding-top: 12vh;
+    padding-top: 15vh;
     margin-top: 1vh;
 }
 
